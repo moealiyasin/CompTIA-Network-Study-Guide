@@ -1,0 +1,14 @@
+Q: PORT SECURITY ON AN ETHERNET SWITCH IS IMPLEMENTED THROUGH THE USE OF WHICH OF THE FOLLOWING METHODS?
+A: Port-by port MAC addresssing- the switch can be set to allow only certain MAC addressing on a particular port, which helps prevent unathorized devices from connecting to the network.
+Q: NAT OPERATES AT WHICH LAYER OF THE OSI MODEL?
+A: Network, layer 3- since NAT works by modifying the IP address in packet headers as they pass through a router or firewall, thus allowing multiple devices on a private network to share a single public IP address when accessing external networks such as the internet.
+Q: WHICH OF THE FOLLOWING CLI TOOLS CAN YOU USE TO CREATE AND MODIFY STATIC ROUTES ON UNIX OR LINUX SYSTEMS? 
+A: ip (modern one), route
+Q: IN AN IPV4 ROUTING TABLE, WHAT IS THE NETWORK DESTINATION ADDRESS FOR THE HOST SYSTEM'S DEFAULT ROUTE?
+A: 0.0.0.0
+Q: WHAT TYPE OF CABLE IS TYPICALLY USED TO CONNECT TO A ROUTER WITHIN A LAN?
+A: Cat 5e or 6 cable-these cables support ethernet communication, which is essential for LAN connections
+Q: WHAT IS THE PURPOSE OF THE VLAN?
+A: To seperate broadcast domains w/in a single physical network-VLAN allows you to segment a single physical network ingto multiple logical networks, effectively creating seperate broadcast domains-this improves network efficiency by isolating traffic between different groups of devices
+Q: WAT NETWORK TOPOLOGY CONNECTS ALL DEVICES TO A CENTRAL DEVICE SUCH AS A SWITCH OR A HUB?
+A: Star- in this configuration each device communicates directly with the central device-simplifies network management
