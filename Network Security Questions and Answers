@@ -1,0 +1,28 @@
+Q: Which of the following type of attacks involves the modification of a legit software product?
+A: Logic bomb- type of malicious code embedded in a legitimate program
+Q: Which of the following functions can be interfered with by a DNS poisoning attack?
+A: Name Resolution-DNS poisoning (also called DNS spoofing) corrupts the DNS cache or responses, causing users to be redirected to malicious or incorrect websites when trying to resolve domain names into IP addresses.
+Q: How to best describe a replay attack?
+A: An intruder retransmits captured authentication packets to gain access to a secured resource
+Q: What is the difference between distributed & reflective DoS attacks?
+A:  A Distributed Denial of Service (DDoS) attack uses multiple malware-infected systems (often part of a botnet) to overwhelm a target with traffic. A Reflective DoS attack, on the other hand, tricks legitimate servers (like DNS or NTP servers) into sending large responses to a spoofed IP address (the victim), causing those servers to unknowingly flood the target.
+Q: What is a type of attack on a network switch that a flood guard help to prevent?
+A: MAC flooding-This attack overwhelms a switch’s MAC address table by sending numerous packets with fake source MAC addresses. Once the table is full, the switch starts broadcasting traffic out all ports, allowing the attacker to eavesdrop on network communications. Flood guards help prevent this by limiting the number of MAC addresses per port.
+Q: What is the creation of a policy instructing users to avoid passwords that use commonly shared info such as birthdates and the names of children & pets, is an example of what?
+A: Mitigation technique-Specifically, it's a security awareness and password policy mitigation technique aimed at reducing the risk of password-based attacks like social engineering and password guessing.
+Q: What are valid reasons not disable unused switch ports?
+A: The datacenter is secured from unathorized access, and the switch is configured to use a MAC-based ACL
+Q: What are some of the types of servers that are typically found in a screened subnet?
+A: Email servers, Web servers, DNS servers, FTP servers, Proxy servers
+Q: What best describes the primary scenario for the use of TACAS(+)?
+A: A: TACACS+ is primarily used to provide centralized AAA (Authentication, Authorization, and Accounting) services for network devices such as routers, switches, and firewalls. It allows network administrators to manage user access and privileges across multiple devices from a central server.
+Q: What authentication protocol is used by Active Directory Domain Services (AD DS) for internal client authentication?
+A: Kerberos – It is the default and primary authentication protocol used by AD DS. Kerberos is a secure method that uses tickets to allow nodes to prove their identity over non-secure networks. It supports mutual authentication and is more efficient and secure than older protocols like NTLM.
+Q: What is the best description of a software product with zero-day vulnerability? 
+A: A vulnerability in a newly released product for which no fix has yet been developed. The term "zero-day" implies that developers have "zero-days" to address the vulnerability before it may be exploited by attackers
+Q: What are the functions implemented using digital signatures?
+A: Authentication, non-repudiation, integrity
+Q: What are types of policies designed to prevent brute-force attacks? 
+A: Account lockout policies, password length policies, complex password policies
+Q: What is an implementation of (NAC) Network Access Control?
+A: 802.1X-It’s a standard for port-based Network Access Control that provides an authentication mechanism to devices trying to connect to a LAN or WLAN. It ensures that only authorized devices and users can access the network.
