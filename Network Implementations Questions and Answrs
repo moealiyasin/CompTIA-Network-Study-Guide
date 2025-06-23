@@ -12,3 +12,11 @@ Q: WHAT IS THE PURPOSE OF THE VLAN?
 A: To seperate broadcast domains w/in a single physical network-VLAN allows you to segment a single physical network ingto multiple logical networks, effectively creating seperate broadcast domains-this improves network efficiency by isolating traffic between different groups of devices
 Q: WAT NETWORK TOPOLOGY CONNECTS ALL DEVICES TO A CENTRAL DEVICE SUCH AS A SWITCH OR A HUB?
 A: Star- in this configuration each device communicates directly with the central device-simplifies network management
+Q: WHAT IS A PROTOCOL THAT IDENTIFIES VLANS BY INSERTING A 32-BIT FIELD IN THE ETHERNET FRAME?
+A: A: IEEE 802.1Q — This protocol adds a 32-bit tag into the Ethernet frame, allowing switches to identify which VLAN the frame belongs to. This enables VLAN-based segmentation and proper traffic management across trunk links.
+Q: A SWITCH WITH AUTO MEDIU-DEPENDENT INTERFACE CROSSOVER (MDI-X) PORTS ELIMINATE THE NEED FOR WHAT?  
+A: Crossover cables – MDI-X automatically detects the type of device connected and adjusts the transmit and receive pairs accordingly. This allows you to use straight-through Ethernet cables even when connecting similar devices (like switch-to-switch or PC-to-PC), where crossover cables were traditionally required.
+Q: WHAT TASKS CAN YOU PERFORM TO SPLIT A SWITCHED LAN INTO MULTIPLE BROADCAST DOMAINS?
+A: Install routers on the network & Create VLANS in the switch. 1.) Is good for connecting diferent networks, providing inter-VLAN routing, and applying security policies between networks. 2.) Is good for segmenting traffic logically (e.g., HR vs Finance vs IT), limiting broadcast traffic, & enhancing security & performance on large networks. 
+
+
